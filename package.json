@@ -1,0 +1,28 @@
+{
+  "name": "nyt-react-week19",
+  "version": "1.0.0",
+  "description": "React/Scraping/mongoDB application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradisrad83/nyt-react-week19.git"
+  },
+  "author": "Brad Goldsmith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradisrad83/nyt-react-week19/issues"
+  },
+  "homepage": "https://github.com/bradisrad83/nyt-react-week19#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1"
+  }
+}
