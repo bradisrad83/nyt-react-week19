@@ -11,5 +11,7 @@
     Scraping                                                               
     Express                                                                
     Node    
+
+  The entire application will be attempted with ES6
   /*                                                               
 -----------------------------------------------------------------------------
