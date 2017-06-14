@@ -3,7 +3,7 @@ var React = require('react');
 var router = require('react-router');
 
 // Include the Route component for displaying individual routes
-const Route = router.Route;
+//const Route = router.Route;
 
 // Include the Router component to contain all our Routes
 // Here where we can pass in some configuration as props
@@ -21,9 +21,13 @@ var Main = require('../components/Main');
 var Search = require('../components/Search');
 var Saved = require('../components/Saved');
 
-export default (
+export default(
   <Route path='/' component={Main}>
 
+    <Route path='Search' component={Search}/>
+    <Route path='Saved' component={Saved}/>
+
+    <IndexRoute component={Search}/>
 
   </Route>
 );

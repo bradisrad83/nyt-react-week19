@@ -37,7 +37,7 @@ const Query = React.createClass({
 
               <div className="panel panel-primary">
                 <div className="panel-heading">
-                  <h1 className="panel-title"><i className="fa fa-newspaper" aria-hidden="true"></i>Article Search</h1>
+                  <h1 className="panel-title">Article Search</h1>
                 </div>
                 <div className="panel-body">
 
@@ -47,15 +47,15 @@ const Query = React.createClass({
                       <input type="text" value={this.state.value} className="form-control " id="search" onChange= {this.handleChange} required/>
 
                       <h4 className="">Start Year (Required)</h4>
-                      <input value={this.state.value} className="form-control " id="startDate" onChange= {this.handleChange} required/>
+                      <input value={this.state.value} className="form-control " id="start" onChange= {this.handleChange} required/>
 
                       <h4 className="">End Year (Required)</h4>
-                      <input value={this.state.value} className="form-control " id="endDate" onChange= {this.handleChange} required/>
+                      <input value={this.state.value} className="form-control " id="end" onChange= {this.handleChange} required/>
 
                     </div>
 
                     <div className="pull-right">
-                      <button type="button" className="btn btn-primary" onClick={this.handleSubmit}><h4>Submit</h4></button>
+                      <button type="button" className="btn btn-danger" onClick={this.handleSubmit}><h4>Submit</h4></button>
                     </div>
                   </form>
 

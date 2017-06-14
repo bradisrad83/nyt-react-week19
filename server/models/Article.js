@@ -1,5 +1,5 @@
 //ES6  of 'require'
-import mongoose from 'mongoose';
+var mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 //Creates a new schema for Articles from the NYTimes

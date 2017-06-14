@@ -7,8 +7,7 @@ const Main = React.createClass({
   render() {
 
     return (
-//Returns/builds the main page of our application and then calls our children pages
-
+//Returns/builds the main page of our application and then calls our children page
       <div className="main-container">
           <nav className="navbar navbar-default" role="navigation">
             <div className="container-fluid">
@@ -35,9 +34,7 @@ const Main = React.createClass({
             </div>
           </nav>
           <div className="jumbotron">
-            <h2 className="text-center">
-              <strong>Article Search</strong>
-            </h2>
+            <h2 className="text-center">Article Search</h2>
           </div>
           {this.props.children}
       </div>

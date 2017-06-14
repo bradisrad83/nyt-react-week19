@@ -6,8 +6,7 @@ var cheerio = require('cheerio');
 //exporting all of our routes to be used through the application
 module.exports = function(app) {
   app.get('/', (req, res) => {
-    console.log("hitting");
-    res.sendFile('../../public/index.html');
+    res.sendFile('./public/index.html');
   })
 
   app.get('/api/saved', (req, res) => {
