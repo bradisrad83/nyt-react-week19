@@ -15,6 +15,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 //Creates a static public directory to be used
 app.use(express.static('./server'));
 
+
 //Setting up our mongoDB connection using ES6 format
 const link = 'mongodb://localhost/nytreact';
 
@@ -29,6 +30,8 @@ db.once('open', () => {
   console.log('Mongoose Connection Successful.');
 });
 
+//Initialize routes
+require("./server/controllers/api-routes.js");
 
 
 //Sets up and listens on our defined port using ES6

@@ -15,3 +15,15 @@ const hashHistroy = router.hashHistroy;
 
 //Include the IndexRoute (catch-all route)
 const IndexRoute = router.IndexRoute;
+
+//Includeing the components main/search/Saved
+var Main = require('../components/Main');
+var Search = require('../components/Search');
+var Saved = require('../components/Saved');
+
+export default (
+  <Route path='/' component={Main}>
+
+
+  </Route>
+);

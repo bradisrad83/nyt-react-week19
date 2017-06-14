@@ -19,10 +19,12 @@
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
     "express": "^4.15.3",
     "mongoose": "^4.10.5",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router": "^4.1.1"
+    "react-router": "^4.1.1",
+    "request": "^2.81.0"
   }
 }
