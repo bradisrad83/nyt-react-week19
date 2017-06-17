@@ -4,7 +4,7 @@ var Router = require('react-router');
 
 //requiring Query/results/and helpers(api call)
 var Query = require('./Children/Query');
-var Results = require('/Children/Results');
+var Results = require('./Children/Results');
 var helpers = require('../helpers/helpers');
 
 const Search = React.createClass({
@@ -30,7 +30,6 @@ const Search = React.createClass({
         {
           this.setState({
             results: data
-            console.log(data);
           })
         }
 

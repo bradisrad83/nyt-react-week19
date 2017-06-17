@@ -7,11 +7,11 @@ var router = require('react-router');
 
 // Include the Router component to contain all our Routes
 // Here where we can pass in some configuration as props
-const Router = router.Router;
+const Route = router.Router;
 
 // Include the hashHistory prop to handle routing client side without a server
 // https://github.com/ReactTraining/react-router/blob/master/docs/guides/Histories.md#hashhistory
-const hashHistroy = router.hashHistroy;
+//const hashHistroy = router.hashHistroy;
 
 //Include the IndexRoute (catch-all route)
 const IndexRoute = router.IndexRoute;
@@ -21,7 +21,7 @@ var Main = require('../components/Main');
 var Search = require('../components/Search');
 var Saved = require('../components/Saved');
 
-export default(
+const routes = (
   <Route path='/' component={Main}>
 
     <Route path='Search' component={Search}/>
@@ -31,3 +31,4 @@ export default(
 
   </Route>
 );
+export default routes;

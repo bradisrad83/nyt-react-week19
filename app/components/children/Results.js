@@ -28,9 +28,7 @@ const Results = React.createClass({
       )
 
     } else {
-
       var articles = this.props.results.docs.map((article, index) => <div key={index}>
-
         <li className="list-group-item">
 
           <h3>

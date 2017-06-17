@@ -1,6 +1,6 @@
 //require react libraries/router
 var React = require('react');
-var Router = require('react-router');
+var Router = require('react-router').router;
 
 //requiring helpers (API call)
 var helpers = require ('../helpers/helpers');
