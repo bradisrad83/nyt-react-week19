@@ -5,7 +5,7 @@ var Router = require('react-router').router;
 //requiring helpers (API call)
 var helpers = require ('../helpers/helpers');
 
-const Main = React.createClass({
+const Saved = React.createClass({
 
   getInitialState() {
     return {
@@ -102,4 +102,4 @@ const Main = React.createClass({
   }
 });
 
-export default Main;
+module.exports =Saved;

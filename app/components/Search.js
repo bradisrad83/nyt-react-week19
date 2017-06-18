@@ -62,4 +62,4 @@ const Search = React.createClass({
   }
 });
 
-export default Search;
+module.exports = Search;

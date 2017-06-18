@@ -2,7 +2,7 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Router = require('react-router');
 
-var main = require ('./components/Main');
-var routes = require('./routes/react-routes');
+var Main = require ('./components/Main');
+var Routes = require('./routes/react-routes');
 
-ReactDOM.render(main, document.getElementById('app'));
+ReactDOM.render(<Main />, document.getElementById('app'));

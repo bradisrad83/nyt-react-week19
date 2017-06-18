@@ -79,4 +79,4 @@ const Results = React.createClass({
 
 });
 
-export default Results;
+module.exports = Results;
