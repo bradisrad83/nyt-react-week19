@@ -38,6 +38,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^2.3.0",
+    "react-router-redux": "^5.0.0-alpha.6",
     "webpack": "^1.15.0"
   }
 }

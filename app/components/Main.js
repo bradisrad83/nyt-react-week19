@@ -36,7 +36,7 @@ const Main = React.createClass({
           <div className="jumbotron">
             <h2 className="text-center">Article Search</h2>
           </div>
-          {this.props.children}
+          {this.props.Children}
       </div>
     )
   }
